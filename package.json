@@ -1,7 +1,11 @@
 {
-  "name": "n8n-webhook-test",
+  "name": "n8n-vercel",
   "version": "1.0.0",
+  "dependencies": {
+    "n8n": "^1.55.0"
+  },
   "scripts": {
-    "vercel-build": "echo 'Nothing to build'"
+    "vercel-build": "echo 'skip build'"
   }
 }
+
